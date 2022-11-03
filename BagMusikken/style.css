@@ -9,26 +9,35 @@ ul {
     background-color: #333;
 }
 
+#pe {
+    position: fixed;
+}
+
 .active {
     background-color: #04AA6D;
 }
 
-li {
+button {
     float: left;
 }
 
-li a {
+button a {
     display: block;
-    color: white;
+    color: blue;
     text-align: center;
+    color: green;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
+button:hover {
     background-color: #111;
 }
 
 h1 {
     position: center;
+}
+
+.menuitem {
+    display: none;
 }
